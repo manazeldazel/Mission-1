@@ -1,0 +1,162 @@
+@font-face {
+    font-family: one-piece-font;
+    src: url(../fonts/one-piece-font.ttf);
+}
+/*----------Absolute Rules----------*/
+
+*{
+    text-align: center;
+    text-anchor: middle;
+    margin: 0;
+    max-width: 100vw;
+}
+/*----------Header----------*/
+
+header {
+    width: 100%;
+    height: 10vh;
+    font-family: one-piece-font;
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    position: sticky;
+    top: 0;
+    background-color: #493B3C;
+    border-bottom: 4px solid white;
+    z-index: 44;
+}
+
+.woop-title {
+    display: block;
+    font: sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+}
+
+/*----------Background----------*/
+
+body {
+    background-color: #26396B;
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.column-two{
+    display: flex;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 60vh;
+}
+
+.column-three{
+    margin-top: 40px;
+}
+
+/*----------Contact----------*/
+
+.contact-form-container h1 {
+    color: white;
+    font-size: 50px;
+    margin: 20px;
+    font-family: one-piece-font;
+}
+
+.contact-form-container{
+    width: 50%;
+    padding: 30px;
+}
+
+.contact-form {
+    background-color: #E1CD43;
+    width: 80%;
+    padding: 40px;
+    border-radius: 10px;
+    margin: auto;    
+}
+
+.image-container{
+    width: 50%;
+    height: auto;
+    padding: 20px;
+}
+
+.image-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    border: 2px solid black;
+}
+
+.chibi-container{
+    width: 100px;
+}
+
+.chibi-container img{
+    width: 100%;
+    height: 100%; 
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    border: 2px solid #050505; 
+    border-radius: 12px;
+    background-color: #fffcfd;
+    color: #000000;
+    font-size: 16px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #493B3C;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form label{
+    color: rgb(0, 0, 0);
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #493B3C; 
+    color: white;
+}
+
+/*----------Footer Format----------*/
+
+footer {
+    width: 100%;
+    max-width: 100vw;
+    height: 10vh;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    font-family: one-piece-font;
+    background-color: #493B3C;
+}
+
+.footer {
+    display: block;
+    font: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+ 
